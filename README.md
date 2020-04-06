@@ -10,7 +10,7 @@ Buttons, timelines, blog cards, profile cards, tables, accordions... you name it
 
 Our components are a perfect extension of Bootstrap 4 so you will find it very easy to work with our code if you're familiar with their class names and styles. Furthermore, we've made sure to that all components are well documented.
 
-Checkout all (all components here)[https://demo.themesberg.com/pixel-pro/html/components/all.html].
+Checkout all [all components here](https://demo.themesberg.com/pixel-pro/html/components/all.html).
 
 **50+ Sections**
 
