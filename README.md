@@ -10,8 +10,6 @@ Buttons, timelines, blog cards, profile cards, tables, accordions... you name it
 
 Our components are a perfect extension of Bootstrap 4 so you will find it very easy to work with our code if you're familiar with their class names and styles. Furthermore, we've made sure to that all components are well documented.
 
-Our components are created by the Object Oriented CSS principle, which means that the classes can be combined each other. You want to make a rounded button, but with the secondary color and an animation? Great! All you have to do is add .btn, .btn-rounded, .btn-secondary and .animate-up-2. How awesome is that?
-
 Checkout all (all components here)[https://demo.themesberg.com/pixel-pro/html/components/all.html].
 
 **50+ Sections**
@@ -65,21 +63,21 @@ This template requires Node and Gulp CLI. Please follow these steps to install t
 2. Make sure you have Node locally installed.
 3. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
 
-{{< highlight bash >}}
+```
 npm install gulp-cli -g
-{{< /highlight >}}
+```
 
 4. After installing Gulp, run npm install in the main `rocket/` folder to download all the project dependencies. You'll find them in the `node_modules/` folder.
 
-{{< highlight bash >}}
+```
 npm install
-{{< /highlight >}}
+```
 
 5. Run gulp in the `pixel/` folder to serve the project files using BrowserSync. Running gulp will compile the theme and open `/index.html` in your main browser.
 
-{{< highlight bash >}}
+```
 gulp
-{{< /highlight >}}
+```
 
 While the gulp command is running, files in the `assets/scss/`, `assets/js/` and `components/` folders will be monitored for changes. Files from the `assets/scss/` folder will generate injected CSS.
 
@@ -89,9 +87,9 @@ Hit `CTRL+C` to terminate the gulp command. This will stop the local server from
 
 If you'd like to get a version of our theme without Sass, Gulp or Npm, we've got you covered. Run the following command:
 
-{{< highlight bash >}}
+```
 gulp build:dev
-{{< /highlight >}}
+```
 
 This will generate a folder `html&css` which will have unminified CSS, Html and Javascript.
 
@@ -99,9 +97,9 @@ This will generate a folder `html&css` which will have unminified CSS, Html and 
 
 If you'd like to compile the code and get a minified version of the HTML and CSS just run the following Gulp command:
 
-{{< highlight bash >}}
+```
 gulp build:dist
-{{< /highlight >}}
+```
 
 This will generate a folder `dist` which will have minified CSS, Html and Javascript.
 
