@@ -55,11 +55,7 @@ This product is built using the following widely used technologies:
 ## Quick start
 
 1. Purchase from [Themesberg](https://themesberg.com/product/ui-kits/pixel-pro-premium-bootstrap-4-ui-kit)
-
 2. Download the project's zip
-
-This template requires Node and Gulp CLI. Please follow these steps to install the required technologies:
-
 3. Make sure you have Node locally installed.
 4. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
 
